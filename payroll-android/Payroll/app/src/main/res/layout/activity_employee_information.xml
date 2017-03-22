@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".employee.EmployeeInformation"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/heacder_coverImgae"
+            android:scaleType="centerCrop"
+            android:src="@drawable/navigation_header_image"/>
+
+        <ImageView
+            android:id="@+id/user_profile_photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/heacder_coverImgae"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-60dp"
+            android:background="@drawable/profile_circular_border_imageview"
+            android:elevation="5dp"
+            android:padding="20dp"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heacder_coverImgae"
+            android:layout_marginTop="60dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/emp_det"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Employee Details"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/txtview_emp_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+            <TextView
+                android:id="@+id/textview_fath_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/txtview_moth_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+            <TextView
+                android:id="@+id/txtview_emp_DOB"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+            <TextView
+                android:id="@+id/txtview_citizen_no"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="20dp" />
+            <TextView
+                android:id="@+id/txtview_nation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+
+
+            <TextView
+                android:id="@+id/txtview_emp_cont"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Contact"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/txtview_emp_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+            <TextView
+                android:id="@+id/txtview_emp_mob"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/txtview_emp_martial"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Employee Maritial Status"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/txtview_matrial"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/txtview_emp_gender"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Gender"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/txtview_gen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/txtview_emp_job_det"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Employee Job Details"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/txtview_role"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+            <TextView
+                android:id="@+id/txtview_shft"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+            <TextView
+                android:id="@+id/txtview_depart"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+            <TextView
+                android:id="@+id/txtview_level"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+            <TextView
+                android:id="@+id/txtview_posit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+            <TextView
+                android:id="@+id/txtview_job_spec"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/txtview_emp_sal"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Employee Salary"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/txtview_sal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/txtview_emp_dot_of_comm"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Emolyee Date of Commencement"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/txtview_dot_of_commen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#FFFFFF</color>
+    <color name="transparent">#FFFFBF</color>
+    <color name="dark_yellow">#e6fa15</color>
+    <color name="yellow">#f9f90f</color>
+    <color name="green">#a1fa05</color>
+    <color name="checked">#FAFF</color>
+    <color name="pressed">#111111</color>
+
+</resources>

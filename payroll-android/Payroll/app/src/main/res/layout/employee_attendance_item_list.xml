@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:foregroundGravity="left|center|right">
+    <ImageView
+        android:id="@+id/imgViewEmployee"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/employee_name_placeholder"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:descendantFocusability="blocksDescendants"
+        android:textIsSelectable="false"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvEmpName"
+        android:text="Employee"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:foregroundGravity="center"
+        android:textIsSelectable="false"
+        android:layout_alignTop="@+id/imgViewEmployee"
+        android:layout_toRightOf="@+id/imgViewEmployee"
+        android:layout_toEndOf="@+id/imgViewEmployee"
+        android:textColor="#25c748" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Role"
+        android:id="@+id/tvP"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:foregroundGravity="left|center|right"
+        android:textIsSelectable="false"
+        android:layout_toRightOf="@+id/imgViewEmployee"
+        android:layout_toEndOf="@+id/imgViewEmployee"
+        android:layout_below="@+id/tvEmpName"
+        android:layout_above="@+id/tvR"
+        android:textColor="#235c85" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Position"
+        android:id="@+id/tvR"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textIsSelectable="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:foregroundGravity="left|center|right"
+        android:layout_above="@+id/toggle"
+        android:layout_toRightOf="@+id/imgViewEmployee"
+        android:layout_toEndOf="@+id/imgViewEmployee"
+        android:layout_marginRight="10dp"
+        android:textColor="#3b0436" />
+
+    <RadioGroup
+        android:checkedButton="@+id/Present"
+        android:id="@+id/toggle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/pink_out_line"
+        android:orientation="horizontal"
+        android:layout_below="@+id/imgViewEmployee"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:textIsSelectable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/absence"
+            android:background="@drawable/toggle_widget_background"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Absence"
+            android:textColor="#000000"
+            android:checked="true"
+            android:clickable="false"
+            android:textIsSelectable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/Present"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_widget_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Present"
+            android:textColor="#000000"
+            android:checked="true"
+            android:textIsSelectable="false"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+
+</RelativeLayout>
