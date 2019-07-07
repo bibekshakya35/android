@@ -1,12 +1,11 @@
 package io.github.bibekshakya35.simplenoteapp.util;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
+import android.support.v7.widget.RecyclerView;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
-
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
 
 import io.github.bibekshakya35.simplenoteapp.listener.OnItemClickListener;
 import io.github.bibekshakya35.simplenoteapp.listener.OnRecyclerViewItemClickListener;

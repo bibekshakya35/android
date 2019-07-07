@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RoomDbExample</string>
+    <string name="app_name">My Note App</string>
     <string name="task_title">My Notes</string>
     <string name="add_task_title">Add new note</string>
     <string name="edit_task_title">Edit note</string>
@@ -15,5 +15,7 @@
     <string name="pwd_title">Enter password</string>
     <string name="error_pwd">Incorrect password</string>
     <string name="title_activity_note_list">NoteListActivity</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <string name="title_activity_pwd">PwdActivity</string>
 
 </resources>
